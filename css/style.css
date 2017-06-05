@@ -1,0 +1,16 @@
+
+.first-slide { content:url(../img/Wk1_BoxSale_Desktop_v2_4060.jpg); }
+.second-slide { content:url(../img/FDay_Collection_Desktop_fin_4065.jpg); }
+.third-slide { content:url(../img/main_banner25_12_2015_3.jpg); }
+
+div#myCarousel.carousel { 
+	position: relative;
+	display: block;
+	padding-top: 100px !important; 
+}
+
+div.container.marketing {
+	display: block;
+	position: relative;
+	padding-top: 100px;
+}

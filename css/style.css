@@ -1,12 +1,11 @@
-
-.first-slide { content:url(../img/Wk1_BoxSale_Desktop_v2_4060.jpg); }
+.first-slide { content:url(../img/flower_shop.jpg); }
 .second-slide { content:url(../img/FDay_Collection_Desktop_fin_4065.jpg); }
-.third-slide { content:url(../img/main_banner25_12_2015_3.jpg); }
+.third-slide { content:url(../img/Wk1_BoxSale_Desktop_v2_4060.jpg); }
 
 div#myCarousel.carousel { 
 	position: relative;
 	display: block;
-	padding-top: 100px !important; 
+	padding-top: 100px; 
 }
 
 div.container.marketing {
@@ -14,3 +13,24 @@ div.container.marketing {
 	position: relative;
 	padding-top: 100px;
 }
+
+div.carousel-caption { 
+	background-color: #efefef;
+	border-radius: 25px;
+    border: 5px solid #f00;
+	opacity: 0.85;
+}
+div.carousel-caption h1 { 
+	color: #ff6021;
+	opacity: 1;
+}
+div.carousel-caption p { 
+	position: relative;
+	z-index: 200;
+	color: #8c8c8c;
+}
+
+img#marketing-1 { content:url("../img/sizzlin_summer.jpg"); }
+img#marketing-1 h2 { color: #ff6021; }
+img#marketing-2 { content:url("../img/Sampler_Bouquet.jpg"); }
+img#marketing-2 h2 { color: #ff6021; }

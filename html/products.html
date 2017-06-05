@@ -12,16 +12,66 @@
     <title>The Gift Box - Products</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 
-    <div id="products" class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
+    <!-- NAVBAR WRAPPER -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">The Gift Box</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Occasions<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Anniversary</a></li>
+                    <li><a href="#">Sympathy</a></li>
+                    <li><a href="#">Birthday</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Orders</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
     </div>
+
+    <!-- PRODUCTS  -->
+    <div id="productsPage" class="container">
+        <div class="page-header">
+            <h1>Bootstrap grid examples</h1>
+            <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+        </div>
+
+        <div id="products" class="row cntainer">
+
+        </div>
+
+    </div>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/products.js"></script>
 
 </body>
 </html>

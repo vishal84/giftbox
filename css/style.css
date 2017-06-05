@@ -40,3 +40,4 @@ img#heading-1 { content:url("../img/boxofchocolates.jpg"); height: auto; }
 img#heading-2 { content:url("../img/summerfire.jpg"); height: auto; }
 img#heading-3 { content:url("../img/strawberrybouquet.jpg"); height: auto; }
 
+div#productsPage { padding-top: 100px; }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>The Gift Box - Checkout</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR WRAPPER -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">The Gift Box</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Occasions<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Anniversary</a></li>
+                    <li><a href="#">Sympathy</a></li>
+                    <li><a href="#">Birthday</a></li>
+                  </ul>
+                </li>
+                <li><a href="cart.html">Cart</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- CHECKOUT  -->
+    <div class="container page">
+        
+        <div class="page-header">
+            <p>Cart > Checkout</p>
+        </div>
+
+        <div class="row container">
+            <div id="checkout-1" class="col-md-6">
+                <div class="row">
+                  <h3>Shipping Address</h3>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                      <strong>First Name:</strong>
+                      <input type="text" name="first" id="first" class="form-control" value="">
+                  </div>
+                  <div class="col-md-4">
+                      <strong>Last Name:</strong>
+                      <input type="text" name="last" id="last" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <strong>Street:</strong>
+                    <input type="text" name="street" id="street" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <strong>City:</strong>
+                    <input type="text" name="city" id="city" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                      <strong>Zip Code:</strong>
+                      <input type="text" name="zip" id="zip" class="form-control" value="">
+                  </div>
+                  <div class="col-md-4">
+                      <strong>State:</strong>
+                      <input type="text" name="state" id="state" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <strong>E-Mail:</strong>
+                    <input type="text" name="email" id="email" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <h3>Payment</h3>
+                </div>
+                <div class="row ">
+                  <div class="col-md-8">
+                    <strong>Card Number:</strong>
+                    <input type="text" name="card_number" id="card_number" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                      <strong>Month:</strong>
+                      <input type="text" name="month" id="month" class="form-control" value="">
+                  </div>
+                  <div class="col-md-4">
+                      <strong>Year:</strong>
+                      <input type="text" name="year" id="year" class="form-control" value="">
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col-md-8">
+                    <strong>Card CVV:</strong>
+                    <input type="text" name="cvv" id="cvv" class="form-control" value="">
+                  </div>
+                </div>
+            </div>
+            <div id="checkout-2" class="col-md-6">
+                <div class="row">
+                  <h3>Cart</h3>
+                </div>
+                <div class="row">
+                  <div id="cart-items">
+                      <div id="cart-header" class="row">
+                        <div class="col-md-1" style="font-weight: bold">Qty</div>
+                        <div class="col-md-6" style="font-weight: bold">Description</div>
+                        <div class="col-md-2" style="font-weight: bold">Price</div>
+                        <div class="col-md-1" style="font-weight: bold">Remove</div>
+                      </div>
+                  </div>
+                  <div id="cart-totals" class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-6" style="font-weight: bold">Subtotal:</div>
+                      <div id="cart-subtotal" class="col-md-1" style="font-weight: bold"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6" style="font-weight: bold">Taxes:</div>
+                      <div id="cart-taxes" class="col-md-1" style="font-weight: bold"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6" style="font-weight: bold">Shipping:</div>
+                      <div id="cart-shipping" class="col-md-1" style="font-weight: bold"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6" style="font-weight: bold">Total:</div>
+                      <div id="cart-total" class="col-md-1" style="font-weight: bold"></div>
+                    </div>
+                    <div class="row no-border">
+                      <p><a id="place_order" class="btn btn-primary" href="#">Place Order</a></p>
+                      <p><a id="palpay" class="btn btn-primary" href="#">Pay with PalPay</a></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/checkout.js"></script>
+
+</body>
+</html>

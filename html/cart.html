@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>The Gift Box</title>
+    <title>The Gift Box - Cart</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
                     <li><a href="#">Birthday</a></li>
                   </ul>
                 </li>
-                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Cart</a></li>
               </ul>
             </div>
           </div>
@@ -56,22 +56,50 @@
       </div>
     </div>
 
-    <!-- PRODUCTS  -->
+    <!-- CARTS  -->
     <div class="container page">
+        
         <div class="page-header">
-            <h1>Compliment your Gift Box with Flowers!</h1>
-            <p class="lead">We are excited to announce our partnership with the Flower Shop.  Please choose any of the flowers they currently have in stock to add to a gift box.</p>
+            <p>Back</p>
         </div>
 
-        <div id="products" class="row container">
-
+        <div class="row container">
+            <div id="cart-items" class="col-md-8">
+                <div id="cart-header" class="row">
+                  <div class="col-md-1" style="font-weight: bold">Qty</div>
+                  <div class="col-md-8" style="font-weight: bold">Description</div>
+                  <div class="col-md-2" style="font-weight: bold">Price</div>
+                  <div class="col-md-1" style="font-weight: bold">Remove</div>
+                </div>
+            </div>
+            <div id="cart-totals" class="col-md-4">
+                <div class="row">
+                  <div class="col-md-6" style="font-weight: bold">Subtotal:</div>
+                  <div id="cart-subtotal" class="col-md-1" style="font-weight: bold"></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6" style="font-weight: bold">Taxes:</div>
+                  <div id="cart-taxes" class="col-md-1" style="font-weight: bold"></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6" style="font-weight: bold">Shipping:</div>
+                  <div id="cart-shipping" class="col-md-1" style="font-weight: bold"></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6" style="font-weight: bold">Total:</div>
+                  <div id="cart-total" class="col-md-1" style="font-weight: bold"></div>
+                </div>
+                <div class="row no-border">
+                  <p><a class="btn btn-primary" href="checkout.html">Proceed to Checkout</a></p>
+                </div>
+            </div>
         </div>
 
     </div>
 
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/products.js"></script>
+    <script src="../js/cart.js"></script>
 
 </body>
 </html>

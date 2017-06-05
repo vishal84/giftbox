@@ -29,8 +29,8 @@ $(document).ready(function() {
 
     		// create price and view buttom and append to product div
     		var $rowDiv = $("<div/>", { class: "row" });
-    		var $priceDiv = $("<div/>", { class: "col-md-6 prodcut-price", text: products[key].price });
-    		var $btnDiv = $("<a/>", { class: "col-md-6 btn btn-primary", href: "product.html#" + products[key].id, role: "button", text: "Order" });
+    		var $priceDiv = $("<div/>", { class: "col-md-12 prodcut-price", text: products[key].price });
+    		var $btnDiv = $("<a/>", { class: "col-md-offset-3 col-md-6 btn btn-primary", href: "product.html#" + products[key].id, role: "button", text: "Order" });
     		
     		$priceDiv.appendTo($rowDiv);
     		$btnDiv.appendTo($rowDiv);

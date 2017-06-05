@@ -40,4 +40,18 @@ img#heading-1 { content:url("../img/boxofchocolates.jpg"); height: auto; }
 img#heading-2 { content:url("../img/summerfire.jpg"); height: auto; }
 img#heading-3 { content:url("../img/strawberrybouquet.jpg"); height: auto; }
 
-div#productsPage { padding-top: 100px; }
+div.page { padding-top: 100px; }
+
+div#cart-items div.cart-item.row, 
+div#cart-items div#cart-header.row,
+div#cart-items div.cart-footer.row { margin: 1em; }
+
+div#cart-totals div.row { border: 1px solid #efefef; padding: 1em; margin-left: 10px; }
+div#cart-totals div.row.no-border { border: none; margin 0 auto; }
+
+
+div#checkout-2 div#cart-items div.cart-item.row, 
+div#checkout-2 div#cart-items div#cart-header.row,
+div#checkout-2 div#cart-items div.cart-footer.row { margin: 1em 0 1em 0; }
+
+

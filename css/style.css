@@ -7,7 +7,7 @@
 div#myCarousel.carousel { 
 	position: relative;
 	display: block;
-	padding-top: 100px; 
+	top: 100px; 
 }
 
 div.container.marketing {
@@ -29,7 +29,7 @@ div.carousel-caption h1 {
 div.carousel-caption p { 
 	position: relative;
 	z-index: 200;
-	color: #8c8c8c;
+	color: #01A;
 }
 
 img#marketing-1 { content:url("../img/sizzlin_summer.jpg"); }
